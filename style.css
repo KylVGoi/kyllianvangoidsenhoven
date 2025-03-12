@@ -26,18 +26,21 @@ header p {
 /* Présentation */
 .presentation {
     background-color: #ddd; /* Fond gris */
-    padding: 20px;
-    margin: 20px; /* Espacement autour de l'encadré */
+    padding: 30px; /* Augmenter l'espacement intérieur */
+    margin: 30px auto; /* Augmenter l'espacement et centrer horizontalement */
     border-radius: 10px; /* Bords arrondis */
+    max-width: 800px; /* Définir une largeur maximale */
+    text-align: justify; /* Justifier le texte */
 }
 
 .presentation h2 {
     font-size: 1.5em;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .presentation p {
-    text-align: left; /* Aligner le texte à gauche */
+    font-size: 1.1em; /* Augmenter la taille de la police du texte */
+    line-height: 1.6; /* Augmenter l'interligne pour une meilleure lisibilité */
 }
 
 /* Pied de page */
