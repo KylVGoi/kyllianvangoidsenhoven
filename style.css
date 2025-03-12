@@ -1,52 +1,56 @@
 /* Général */
 body {
-    font-family: sans-serif;
+    font-family: 'Roboto Condensed', sans-serif; /* Police futuriste */
     margin: 0;
-    background-color: #f0f0f0; /* Fond gris clair */
-    color: #333; /* Texte foncé */
-    text-align: center; /* Centrer le contenu */
+    background-color: #111; /* Fond très sombre */
+    color: #eee; /* Texte gris clair */
+    text-align: center;
 }
 
 /* En-tête */
 header {
-    background-color: #333; /* Fond noir */
-    color: white;
-    padding: 40px 20px; /* Espacement intérieur plus grand */
+    background-color: rgba(0, 0, 0, 0.5); /* Fond noir transparent */
+    color: #ff9900; /* Orange néon */
+    padding: 40px 20px;
+    text-shadow: 0 0 10px #ff9900; /* Ombre néon */
 }
 
 header h1 {
     margin: 0;
-    font-size: 2em; /* Taille de police plus grande */
+    font-size: 2.5em;
 }
 
 header p {
-    font-size: 1.2em; /* Taille de police légèrement plus grande */
+    font-size: 1.2em;
 }
 
 /* Présentation */
 .presentation {
-    background-color: #ddd; /* Fond gris */
-    padding: 30px; /* Augmenter l'espacement intérieur */
-    margin: 30px auto; /* Augmenter l'espacement et centrer horizontalement */
-    border-radius: 10px; /* Bords arrondis */
-    max-width: 800px; /* Définir une largeur maximale */
-    text-align: justify; /* Justifier le texte */
+    background-color: rgba(0, 0, 0, 0.3); /* Fond noir transparent */
+    padding: 30px;
+    margin: 30px auto;
+    border-radius: 10px;
+    max-width: 800px;
+    text-align: justify;
+    border: 1px solid #333; /* Bordure discrète */
 }
 
 .presentation h2 {
-    font-size: 1.5em;
+    font-size: 1.8em;
     margin-bottom: 15px;
+    color: #ddd;
 }
 
 .presentation p {
-    font-size: 1.1em; /* Augmenter la taille de la police du texte */
-    line-height: 1.6; /* Augmenter l'interligne pour une meilleure lisibilité */
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #ccc;
 }
 
 /* Pied de page */
 footer {
-    background-color: #333; /* Fond noir pour le pied de page */
-    color: white;
+    background-color: rgba(0, 0, 0, 0.5); /* Fond noir transparent */
+    color: #bbb;
     padding: 20px;
 }
 
@@ -57,28 +61,39 @@ footer {
 
 .reseaux-sociaux h2 {
     font-size: 1.5em;
+    color: #ccc;
 }
 
 .reseaux-sociaux ul {
     list-style: none;
     padding: 0;
-    display: inline-block; /* Afficher en ligne */
+    display: inline-block;
 }
 
 .reseaux-sociaux li {
     margin: 0 10px;
-    display: inline-block; /* Afficher les éléments de liste en ligne */
+    display: inline-block;
 }
 
 .reseaux-sociaux a {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #444; /* Couleur plus grise */
-    color: white;
+    background-color: #333;
+    color: #888;
     text-decoration: none;
-    border-radius: 25px; /* Bords plus arrondis */
+    border-radius: 25px;
+    transition: all 0.3s ease; /* Animation au survol */
 }
 
 .reseaux-sociaux a:hover {
-    background-color: #555; /* Assombrir au survol */
+    background-color: #555;
+    color: #ddd;
+}
+
+/* Ajout d'une image de fond */
+body {
+    background-image: url("url_de_votre_image.jpg"); /* Remplacez par l'URL de votre image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Pour que l'image reste fixe lors du défilement */
 }
