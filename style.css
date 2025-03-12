@@ -6,11 +6,18 @@ body {
     color: #e0e0e0; /* Texte clair et neutre */
     text-align: center;
     line-height: 1.6;
+
+    /* Ajout de l'image de fond inspirée de Dune */
+    background-image: url('https://i.pinimg.com/736x/c5/d7/0a/c5d70a5bf874df668d920215d3d0952f.jpg'); /* Remplace par ton propre lien ou image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Pour garder l'image fixe lors du défilement */
 }
 
 /* En-tête */
 header {
-    background-color: #3c3c3c; /* Gris foncé pour rappeler l'ambiance désertique */
+    background-color: rgba(60, 60, 60, 0.8); /* Fond semi-transparent pour laisser apparaître l'image */
     color: #d0b68f; /* Jaune sable pour un contraste doux */
     padding: 40px 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
@@ -30,7 +37,7 @@ header p {
 
 /* Présentation */
 .presentation {
-    background-color: #2a2a2a; /* Fond gris très sombre pour contraster avec le texte */
+    background-color: rgba(42, 42, 42, 0.8); /* Fond gris très sombre semi-transparent */
     padding: 30px;
     margin: 30px auto;
     border-radius: 10px;
@@ -53,7 +60,7 @@ header p {
 
 /* Pied de page */
 footer {
-    background-color: #3c3c3c;
+    background-color: rgba(60, 60, 60, 0.8);
     color: #d0b68f;
     padding: 20px;
     box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.2);
@@ -95,3 +102,15 @@ footer {
 }
 
 .reseaux-sociaux a:hover {
+    background-color: #8b6b3f; /* Un effet de survol subtil avec une teinte plus claire */
+}
+
+/* Effet d'ombre pour donner de la profondeur */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: #d0b68f; /* Couleur or lorsqu'on survole un lien */
+}
