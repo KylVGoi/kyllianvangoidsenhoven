@@ -1,0 +1,57 @@
+/* Général */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #f0f0f0; /* Fond gris clair */
+    color: #333; /* Texte foncé */
+    text-align: center; /* Centrer le contenu */
+}
+
+/* En-tête */
+header {
+    background-color: #333; /* Fond noir */
+    color: white;
+    padding: 40px 20px; /* Espacement intérieur plus grand */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em; /* Taille de police plus grande */
+}
+
+header p {
+    font-size: 1.2em; /* Taille de police légèrement plus grande */
+}
+
+/* Réseaux sociaux */
+.reseaux-sociaux {
+    padding: 20px;
+}
+
+.reseaux-sociaux h2 {
+    font-size: 1.5em; /* Taille de police plus grande */
+}
+
+.reseaux-sociaux ul {
+    list-style: none;
+    padding: 0;
+    display: inline-block; /* Afficher en ligne */
+}
+
+.reseaux-sociaux li {
+    margin: 0 10px;
+    display: inline-block; /* Afficher les éléments de liste en ligne */
+}
+
+.reseaux-sociaux a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #444; /* Couleur plus grise */
+    color: white;
+    text-decoration: none;
+    border-radius: 25px; /* Bords plus arrondis */
+}
+
+.reseaux-sociaux a:hover {
+    background-color: #555; /* Assombrir au survol */
+}
