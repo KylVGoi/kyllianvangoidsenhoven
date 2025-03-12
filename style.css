@@ -23,13 +23,37 @@ header p {
     font-size: 1.2em; /* Taille de police légèrement plus grande */
 }
 
+/* Présentation */
+.presentation {
+    background-color: #ddd; /* Fond gris */
+    padding: 20px;
+    margin: 20px; /* Espacement autour de l'encadré */
+    border-radius: 10px; /* Bords arrondis */
+}
+
+.presentation h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.presentation p {
+    text-align: left; /* Aligner le texte à gauche */
+}
+
+/* Pied de page */
+footer {
+    background-color: #333; /* Fond noir pour le pied de page */
+    color: white;
+    padding: 20px;
+}
+
 /* Réseaux sociaux */
 .reseaux-sociaux {
     padding: 20px;
 }
 
 .reseaux-sociaux h2 {
-    font-size: 1.5em; /* Taille de police plus grande */
+    font-size: 1.5em;
 }
 
 .reseaux-sociaux ul {
