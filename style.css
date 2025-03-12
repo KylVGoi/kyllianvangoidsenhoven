@@ -1,53 +1,64 @@
 /* Général */
 body {
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif; /* Police moderne */
     margin: 0;
-    background-color: #f0f0f0; /* Fond gris clair */
-    color: #333; /* Texte foncé */
-    text-align: center; /* Centrer le contenu */
+    background-color: #1b1b1b; /* Fond sombre */
+    color: #e0e0e0; /* Texte clair pour contraster */
+    text-align: center;
+    line-height: 1.6;
 }
 
 /* En-tête */
 header {
-    background-color: #333; /* Fond noir */
-    color: white;
-    padding: 40px 20px; /* Espacement intérieur plus grand */
+    background-color: #121212; /* Fond noir profond */
+    color: #f0f0f0; /* Texte clair */
+    padding: 60px 20px; /* Espacement intérieur plus grand */
+    text-shadow: 0 0 5px #ff4081, 0 0 10px #ff4081; /* Effet de néon rose */
 }
 
 header h1 {
     margin: 0;
-    font-size: 2em; /* Taille de police plus grande */
+    font-size: 3em; /* Taille de police plus grande */
+    letter-spacing: 1px;
+    text-transform: uppercase;
 }
 
 header p {
-    font-size: 1.2em; /* Taille de police légèrement plus grande */
+    font-size: 1.5em;
+    margin-top: 10px;
+    letter-spacing: 1px;
 }
 
 /* Présentation */
 .presentation {
-    background-color: #f0f0f0; /* Fond gris clair */
-    padding: 30px; /* Augmenter l'espacement intérieur */
-    margin: 30px auto; /* Augmenter l'espacement et centrer horizontalement */
-    border-radius: 10px; /* Bords arrondis */
-    max-width: 800px; /* Définir une largeur maximale */
-    text-align: left; /* Justifier le texte */
+    background-color: #2b2b2b; /* Fond gris foncé */
+    padding: 30px;
+    margin: 30px auto;
+    border-radius: 10px;
+    max-width: 800px;
+    text-align: left;
+    color: #e0e0e0;
+    box-shadow: 0 0 20px rgba(255, 0, 128, 0.6); /* Ombre de néon rose */
 }
 
 .presentation h2 {
-    font-size: 1.5em;
+    font-size: 2em;
     margin-bottom: 15px;
+    color: #ff4081; /* Titre en néon rose */
 }
 
 .presentation p {
-    font-size: 1.1em; /* Augmenter la taille de la police du texte */
-    line-height: 1.6; /* Augmenter l'interligne pour une meilleure lisibilité */
+    font-size: 1.1em;
+    line-height: 1.6;
 }
 
 /* Pied de page */
 footer {
-    background-color: #f0f0f0; /* Fond gris clair pour le pied de page */
-    color: #333;
+    background-color: #121212; /* Fond sombre pour le pied de page */
+    color: #e0e0e0;
     padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(255, 0, 128, 0.6); /* Ombre de néon rose */
 }
 
 /* Réseaux sociaux */
@@ -57,6 +68,7 @@ footer {
 
 .reseaux-sociaux h2 {
     font-size: 1.5em;
+    color: #ff4081; /* Couleur rose néon pour le titre */
 }
 
 .reseaux-sociaux ul {
@@ -66,19 +78,39 @@ footer {
 }
 
 .reseaux-sociaux li {
-    margin: 0 10px;
+    margin: 0 15px;
     display: inline-block;
 }
 
 .reseaux-sociaux a {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #333; /* Fond noir pour les boutons */
-    color: white; /* Texte blanc */
+    background-color: #ff4081; /* Fond rose néon pour les boutons */
+    color: #121212; /* Texte sombre pour contraster */
     text-decoration: none;
-    border-radius: 25px; /* Bords plus arrondis */
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(255, 0, 128, 0.6); /* Effet de néon rose */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .reseaux-sociaux a:hover {
-    background-color: #555; /* Assombrir au survol */
+    background-color: #f50057; /* Assombrir au survol */
+    box-shadow: 0 0 15px rgba(255, 0, 128, 0.9); /* Effet néon plus prononcé au survol */
+}
+
+/* Animation de fond futuriste */
+@keyframes pulse {
+    0% {
+        background-color: #1b1b1b;
+    }
+    50% {
+        background-color: #121212;
+    }
+    100% {
+        background-color: #1b1b1b;
+    }
+}
+
+body {
+    animation: pulse 5s infinite; /* Effet de pulsation de fond */
 }
