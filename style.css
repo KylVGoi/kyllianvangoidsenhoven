@@ -10,9 +10,9 @@ body {
 /* En-tête */
 header {
     background-color: rgba(0, 0, 0, 0.5); /* Fond noir transparent */
-    color: #ff9900; /* Orange néon */
+    color: #d400ff; /* violet néon */
     padding: 40px 20px;
-    text-shadow: 0 0 10px #ff9900; /* Ombre néon */
+    text-shadow: 0 0 10px #d400ff; /* Ombre néon */
 }
 
 header h1 {
