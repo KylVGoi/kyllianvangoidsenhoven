@@ -6,13 +6,6 @@ body {
     color: #e0e0e0; /* Texte clair et neutre */
     text-align: center;
     line-height: 1.6;
-
-    /* Ajout de l'image de fond inspirée de Dune */
-    background-image: url('https://images.unsplash.com/photo-1621795307430-3ff25aa08945?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); /* Remplace par ton propre lien ou image */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed; /* Pour garder l'image fixe lors du défilement */
 }
 
 /* En-tête */
