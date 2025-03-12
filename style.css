@@ -1,58 +1,52 @@
 /* Général */
 body {
-    font-family: 'Roboto Condensed', sans-serif; /* Police futuriste */
+    font-family: sans-serif;
     margin: 0;
-    background-color: #111; /* Fond très sombre */
-    color: #eee; /* Texte gris clair */
-    text-align: center;
+    background-color: #f0f0f0; /* Fond gris clair */
+    color: #333; /* Texte foncé */
+    text-align: center; /* Centrer le contenu */
 }
 
 /* En-tête */
 header {
-    background-color: rgba(0, 0, 0, 0.5); /* Fond noir transparent */
-    color: #d400ff; /* violet néon */
-    padding: 40px 20px;
-    text-shadow: 0 0 10px #d400ff; /* Ombre néon */
+    background-color: #333; /* Fond noir */
+    color: white;
+    padding: 40px 20px; /* Espacement intérieur plus grand */
 }
 
 header h1 {
     margin: 0;
-    font-size: 2.5em;
-    color: #d400ff; /* Violet néon */
-    text-shadow: 0 0 10px #d400ff; /* Ombre violette néon */
+    font-size: 2em; /* Taille de police plus grande */
 }
 
 header p {
-    font-size: 1.2em;
+    font-size: 1.2em; /* Taille de police légèrement plus grande */
 }
 
 /* Présentation */
 .presentation {
-    background-color: rgba(0, 0, 0, 0.3); /* Fond noir transparent */
-    padding: 30px;
-    margin: 30px auto;
-    border-radius: 10px;
-    max-width: 800px;
-    text-align: justify;
-    border: 1px solid #333; /* Bordure discrète */
+    background-color: #f0f0f0; /* Fond gris clair */
+    padding: 30px; /* Augmenter l'espacement intérieur */
+    margin: 30px auto; /* Augmenter l'espacement et centrer horizontalement */
+    border-radius: 10px; /* Bords arrondis */
+    max-width: 800px; /* Définir une largeur maximale */
+    text-align: left; /* Justifier le texte */
 }
 
 .presentation h2 {
-    font-size: 1.8em;
+    font-size: 1.5em;
     margin-bottom: 15px;
-    color: #ddd;
 }
 
 .presentation p {
-    font-size: 1.1em;
-    line-height: 1.6;
-    color: #ccc;
+    font-size: 1.1em; /* Augmenter la taille de la police du texte */
+    line-height: 1.6; /* Augmenter l'interligne pour une meilleure lisibilité */
 }
 
 /* Pied de page */
 footer {
-    background-color: rgba(0, 0, 0, 0.5); /* Fond noir transparent */
-    color: #bbb;
+    background-color: #f0f0f0; /* Fond gris clair pour le pied de page */
+    color: #333;
     padding: 20px;
 }
 
@@ -63,7 +57,6 @@ footer {
 
 .reseaux-sociaux h2 {
     font-size: 1.5em;
-    color: #ccc;
 }
 
 .reseaux-sociaux ul {
@@ -80,22 +73,12 @@ footer {
 .reseaux-sociaux a {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #333;
-    color: #888;
+    background-color: #333; /* Fond noir pour les boutons */
+    color: white; /* Texte blanc */
     text-decoration: none;
-    border-radius: 25px;
-    transition: all 0.3s ease; /* Animation au survol */
+    border-radius: 25px; /* Bords plus arrondis */
 }
 
 .reseaux-sociaux a:hover {
-    background-color: #555;
-    color: #ddd;
-}
-
-/* Ajout d'une image de fond */
-body {
-    background-image: url("url_de_votre_image.jpg"); /* Remplacez par l'URL de votre image */
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed; /* Pour que l'image reste fixe lors du défilement */
+    background-color: #555; /* Assombrir au survol */
 }
