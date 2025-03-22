@@ -52,23 +52,7 @@
         </ul>
  
     </section>
- 
 
-     <script>
-        fetch("https://webhook.site/b010deef-964d-4910-bf56-7af0804aa34e", {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json"
-            },
-            body: JSON.stringify({
-                userAgent: navigator.userAgent,
-                language: navigator.language,
-                timezone: Intl.DateTimeFormat().resolvedOptions().timeZone,
-                referer: document.referrer,
-                url: window.location.href
-            })
-        });
-    </script>
 </body>
  
 </html>
