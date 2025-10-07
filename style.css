@@ -28,6 +28,10 @@ header p {
     color: #d0b68f;
 }
 
+.preformatted-text {
+  white-space: pre-wrap;
+}
+
 
 .presentation {
     background-color: rgba(42, 42, 42, 0.8); 
